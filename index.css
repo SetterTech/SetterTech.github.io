@@ -825,6 +825,7 @@
     font-family: var(--font_primaria);
     display: flex;
     margin-top: 5%;
+    margin-bottom: 6%;
 
 }
 
@@ -933,21 +934,21 @@
     margin-bottom: 1%;
   }
 
-  .footer{
-    margin-top: 6%;
+.footer{
     font-family: var(--font_primaria);
     color:#fff;
     background: #142140;
     align-items: center;
-}
+    margin-top: 0%;
+    }
 
-  .footer_sessao_um{
+.footer_sessao_um{
     display: flex;
     justify-content: space-around;
     margin-right: 5%;
   }
 
-  .footer_sessao_um_bloco_um{
+.footer_sessao_um_bloco_um{
     text-align: center;
     margin-top: 2.8%;
     align-items: center;
@@ -955,29 +956,29 @@
   }
 
 
-  .footer_sessao_um_bloco_um_titulo{
+.footer_sessao_um_bloco_um_titulo{
     margin-bottom: 8%;
     font-size: 23px;
     font-weight: 600;
   }
 
-  .footer_sessao_um_bloco_um_texto{
+.footer_sessao_um_bloco_um_texto{
     font-size:20px ;
     line-height: 35px;
     font-weight: 400;
   }
 
-  .footer_sessao_dois{
+.footer_sessao_dois{
     margin-top: 4%;
     align-items: center;
     text-align: center;
   }
 
-  .footer_sessao_dois{
+.footer_sessao_dois{
 
   }
 
-  .footer_sessao_dois_texto{
+.footer_sessao_dois_texto{
     font-size: 20px;
     font-weight: 700;
   }
