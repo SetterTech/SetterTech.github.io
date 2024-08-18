@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-    if (window.innerWidth > 428) {
+    if (window.innerWidth > 1) {
         const slides = document.querySelectorAll(".slide");
         const indicators = document.querySelectorAll(".indicator");
         let currentSlide = 0;
-        const slideInterval = 5000; /* 9000 = 9 segundos */
+        const slideInterval = 5000000; /* 5000 = 5 segundos */
         let interval;
 
         function showSlide(index) {
@@ -48,3 +48,5 @@ document.addEventListener("DOMContentLoaded", function() {
         startSlideShow();
     }
 });
+
+

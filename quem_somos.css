@@ -181,7 +181,7 @@
 @media only screen and (max-width: 1580px) { 
     .section_quatro_quem_somos_container_texto{
         font-size: 1.5rem;
-        
+    
 
     }
 }
@@ -243,6 +243,10 @@
 
     }
 
+    .section_tres_quem_somos_container_botao_titulo_texto{
+        font-size: 20px;
+    }
+
    
     
  
@@ -272,6 +276,13 @@
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .section_quatro_quem_somos_container_texto{
+        margin:0px;
+        width: 100%;
+        padding: 0px;
+    }
+}
 
 
 

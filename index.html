@@ -7,32 +7,56 @@
     <link  rel="stylesheet" href="./index.css">
     <script src="./index.js" defer></script>
     <title>SETTER</title>
+    
 </head>
+
     <body>
+
         <header>
             <nav class="container_nav">
                 <div class="container_nav_esquerda">
                     <div class="container_nav_esquerda_container_img">
                         <a class="containver_nav_ancora" href="./index.html">  <img class="container_nav_esquerda_container_img_img" src="./assets/logo.png" alt=""> </a>
-
-                    </div>
-
-                    <div class="container_nav_esquerda_texto">
-                        <a class="containver_nav_ancora" href="./quem_somos.html"> <p class="container_nav_esquerda_texto_texto">QUEM SOMOS</p></a> 
-                        <a class="containver_nav_ancora" href="#" href="#"><p class="container_nav_esquerda_texto_texto">SERVIÇOS</p></a> 
-                        <a class="containver_nav_ancora" href="#" href="#"><p class="container_nav_esquerda_texto_texto">PRODUTOS</p></a> 
-                    </div>
     
+                    </div>
+                    <div class="container_nav_esquerda_texto">
+                        <a class="containver_nav_ancora" href="./quem_somos.html"> <p class="container_nav_esquerda_texto_texto">QUEM SOMOS</p></a>
+                        <a class="containver_nav_ancora" href="#"><p class="container_nav_esquerda_texto_texto">SERVIÇOS</p></a>
+                        <a class="containver_nav_ancora" href="#"><p class="container_nav_esquerda_texto_texto">PRODUTOS</p></a>
+                    </div>
                 </div>
-
-                <a class="containver_nav_ancora" href="#">       
+    
+                <a class="containver_nav_ancora" href="#">
                     <div class="container_nav_direita">
                         <p class="container_nav_direita_texto">FALE CONOSCO!</p>
-                    </div> 
+                    </div>
                 </a>
-
+    
+                <!-- Menu Hambúrguer -->
+                <div class="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+    
+                <div class="menu">
+                    <a class="containver_nav_ancora" href="./index.html">HOME</a>
+                    <a class="containver_nav_ancora" href="./quem_somos.html">QUEM SOMOS</a>
+                    <a class="containver_nav_ancora" href="#">SERVIÇOS</a>
+                    <a class="containver_nav_ancora" href="#">PRODUTOS</a>
+                    <a class="containver_nav_ancora" href="#">FALE CONOSCO!</a>
+                </div>
             </nav>
         </header>
+    
+        <script>
+            document.querySelector('.menu-toggle').addEventListener('click', function() {
+                // Alterna a classe 'active' no botão e no menu
+                this.classList.toggle('active');
+                document.querySelector('.menu').classList.toggle('active');
+            });
+        </script>
+        
  
         <div class="carousel-container">
             <div class="carousel">
@@ -43,7 +67,7 @@
                     <div class="section_um_container_texto">
                         <h1 class="section_um_container_texto_titulo">Transforme seu negócio com nossas soluções</h1>
                         <p class="section_um_container_texto_artigo_um">Envie notificações personalizadas via WhatsApp, garantindo 98% de taxa de abertura.</p>
-                        <p class="section_um_container_texto_artigo_dois">Ideal para interações em tempo real e personalizadas, o Setter Notify é eficiente e</p>
+                        <p class="section_um_container_texto_artigo_dois"> <strong class="section_um_container_texto_artigo_dois_ghost"> Ideal para interações em tempo real e personalizadas,</strong> <strong class="section_um_container_texto_artigo_dois_caixa_Alta">o</strong> Setter Notify é eficiente e</p>
                         <p class="section_um_container_texto_artigo_dois">escalável, sendo a solução perfeita para empresas de todos os tamanhos.</p>
                         <p class="section_um_container_texto_rodape">Revolucione sua estratégia de comunicação.</p>
                         <a href="#" class="section_um_container_texto_container_saiba_mais">
@@ -66,6 +90,10 @@
                             <p class="section_dois_container_texto_artigo_texto">mais de 15 anos de experiência, oferecemos serviços de consultoria e</p>
                             <p class="section_dois_container_texto_artigo_texto">integração, facilitando interações inteligentes em diversos canais.</p>
                         </div>
+
+                        <div class="section_dois_container_img_mobile">
+                            <img class="section_dois_container_img_img" src="./assets/logo_section_carrossel.png" alt="logo_setter">
+                        </div>
                         
                         <a href="#" class="section_dois_container_botao">
                             <p class="section_dois_container_botao_texto">Quem somos!</p>
@@ -79,7 +107,8 @@
                     </div>
                     <div class="section_tres_container_textos">
                         <div class="section_tres_container_titulos">
-                            <h1 class="section_tres_container_titulos_titulo">Transforme desafios em oportunidades: Conheça nossas soluções para encontrar a ideal para o seu negócio</h1>
+                            <h1 class="section_tres_container_titulos_titulo">Transforme desafios em oportunidades: <p>Conheça nossas soluções para encontrar a ideal para o seu negócio                         
+                            </p> </h1>
                         </div>
                         <div class="section_tres_container_textos_artigo">
                             <p class="section_tres_container_textos_artigo_artigos">Nossos especialistas estão prontos para atender às suas demandas com precisão e eficiência. Com uma equipe versátil, entendemos suas necessidades e oferecemos soluções para enfrentar os desafios do mercado competitivo. Fale conosco e descubra como podemos ajudar seu negócio a crescer!</p>
@@ -217,7 +246,8 @@
 
                 <div class="section_sete_infos_textos">
                     <p class="section_sete_infos_textos_textos"> 
-                        A tecnologia está redefinindo a forma como as empresas se relacionam com seus clientes, e a implementação de contatos inteligentes se destacam como uma das ferramentas mais eficazes nesse cenário. Na Setter, oferecemos soluções de contato inteligente que podem transformar o atendimento ao cliente e otimizar a gestão de leads na sua empresa.
+                        <strong class="section_sete_infos_textos_textos_ghost">A tecnologia está redefinindo a forma como as empresas se relacionam com seus clientes, e a implementação de contatos inteligentes se destacam como uma das ferramentas mais eficazes nesse cenário. </strong>
+                      Na Setter, oferecemos soluções de contato inteligente que podem transformar o atendimento ao cliente e otimizar a gestão de leads na sua empresa.
                     </p>
                 </div>
             </div>
@@ -368,7 +398,7 @@
             
             <div class="footer_sessao_um">
 
-                <div class="footer_sessao_um_bloco_um">
+                <div class="footer_sessao_um_bloco_um footer_sessao_um_bloco_um_ghost">
                     <p class="footer_sessao_um_bloco_um_titulo"> Institucional</p>
                     <p class="footer_sessao_um_bloco_um_texto">Quem somos | Serviços </p>
                     <p class="footer_sessao_um_bloco_um_texto">Produtos | Fale Conosco </p>
@@ -380,7 +410,7 @@
                 </div>
 
                 <div class="footer_sessao_um_bloco_um">
-                    <p class="footer_sessao_um_bloco_um_titulo"> Redes </p>
+                    <p class="footer_sessao_um_bloco_um_titulo footer_sessao_um_bloco_um_ghost" > Redes </p>
                     <div class="footer_sessao_um_bloco_tres_bloco_img">
                         <img class="footer_sessao_um_bloco_tres_bloco_img_img" src="./assets/redes.png" alt="">
                     </div>
@@ -389,7 +419,7 @@
             </div>
 
             <div class="footer_sessao_dois">
-                <p class="footer_sessao_dois_texto"> CNPJ: 55.553.627/0001-61</p>
+                <p class="footer_sessao_dois_texto footer_sessao_um_bloco_um_ghost"> CNPJ: 55.553.627/0001-61</p>
                 <p class="footer_sessao_dois_texto"> ENDEREÇO: Av. Marechal Câmara,160 - Centro RJ CEP:20.020-907</p>
                 <p class="footer_sessao_dois_texto_baixo"> *Todas as imagens foram criadas por inteligência artificial. </p>
             </div>

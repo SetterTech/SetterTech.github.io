@@ -15,25 +15,45 @@
                 <div class="container_nav_esquerda">
                     <div class="container_nav_esquerda_container_img">
                         <a class="containver_nav_ancora" href="./index.html">  <img class="container_nav_esquerda_container_img_img" src="./assets/logo.png" alt=""> </a>
-
-                    </div>
-
-                    <div class="container_nav_esquerda_texto">
-                        <a class="containver_nav_ancora" href="./quem_somos.html"> <p class="container_nav_esquerda_texto_texto">QUEM SOMOS</p></a> 
-                        <a class="containver_nav_ancora" href="#" href="#"><p class="container_nav_esquerda_texto_texto">SERVIÇOS</p></a> 
-                        <a class="containver_nav_ancora" href="#" href="#"><p class="container_nav_esquerda_texto_texto">PRODUTOS</p></a> 
-                    </div>
     
+                    </div>
+                    <div class="container_nav_esquerda_texto">
+                        <a class="containver_nav_ancora" href="./quem_somos.html"> <p class="container_nav_esquerda_texto_texto">QUEM SOMOS</p></a>
+                        <a class="containver_nav_ancora" href="#"><p class="container_nav_esquerda_texto_texto">SERVIÇOS</p></a>
+                        <a class="containver_nav_ancora" href="#"><p class="container_nav_esquerda_texto_texto">PRODUTOS</p></a>
+                    </div>
                 </div>
-
-                <a class="containver_nav_ancora" href="#">       
+    
+                <a class="containver_nav_ancora" href="#">
                     <div class="container_nav_direita">
                         <p class="container_nav_direita_texto">FALE CONOSCO!</p>
-                    </div> 
+                    </div>
                 </a>
-
+    
+                <!-- Menu Hambúrguer -->
+                <div class="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+    
+                <div class="menu">
+                    <a class="containver_nav_ancora" href="./index.html">HOME</a>
+                    <a class="containver_nav_ancora" href="./quem_somos.html">QUEM SOMOS</a>
+                    <a class="containver_nav_ancora" href="#">SERVIÇOS</a>
+                    <a class="containver_nav_ancora" href="#">PRODUTOS</a>
+                    <a class="containver_nav_ancora" href="#">FALE CONOSCO!</a>
+                </div>
             </nav>
         </header>
+    
+        <script>
+            document.querySelector('.menu-toggle').addEventListener('click', function() {
+                // Alterna a classe 'active' no botão e no menu
+                this.classList.toggle('active');
+                document.querySelector('.menu').classList.toggle('active');
+            });
+        </script>
 
         <section class="section_um_quem_somos">
 
