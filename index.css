@@ -4,6 +4,11 @@
     --font_primaria:  "Roboto", sans-serif;
   }
 
+  /*Essa tag ancora, estou utilizando em alguns botoes entre as pags*/
+.ancora{
+    text-decoration: none;
+}
+
 .carousel-container {
     position: relative;
     width: 100%;
@@ -90,6 +95,9 @@
     display: flex;
 }
 
+.container_img_header{
+    display: none;
+}
 .section_um_container_texto_container_saiba_mais {
     position: relative;
     z-index: 15; /* Ajuste conforme necessário */
@@ -354,9 +362,6 @@
 
 }
 
-.section_tres_container_img{
-
-}
 
 .section_tres_container_img_img{
     height: 57.4vh;
@@ -825,8 +830,6 @@
     
 }
 
-.section_oito_bloco_texto_titulo {
-}
 
 .section_oito_bloco_texto_titulo_titulos{
     font-size: 50px;
@@ -1016,9 +1019,6 @@
     text-align: center;
   }
 
-.footer_sessao_dois{
-
-  }
 
 .footer_sessao_dois_texto{
     font-size: 20px;
@@ -1061,10 +1061,6 @@
         font-weight: 400;
     }
 
-    .section_cinco_bloco_titulos {
-   
-
-    }
     .section_cinco_bloto_titulos_titulo{
         font-size: 48px;
     }
@@ -1110,18 +1106,13 @@
 
     }
 
-    .section_seis_bloco_botao{
-    
-    }
 
     .section_nove_bloco_input{
         margin-left: 8%;
         margin-top: 2%;
     }
 
-    .section_nove_bloco_input_texto_input{
 
-    }
  
 }
 
@@ -1310,13 +1301,11 @@
  
     }
 
-    .section_seis_container_img_img{
-    }
-
     .section_seis_container_textos{
         margin-left: 0%;
 
     }
+
     .section_seis_bloco_titulo{
         margin-top: 12%;
     }
@@ -1367,11 +1356,11 @@
 
 @media only screen and (max-width: 1280px) {
     .container_nav_esquerda_texto_texto{
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .container_nav_direita_texto{
-        font-size: 18px;
+        font-size: 25px;
     }
 }
 
@@ -1387,6 +1376,19 @@
 
 
 @media (max-width: 430px) {
+    .container_img_header{
+        display: grid;
+    }
+
+    .logo_header_mobile{
+        padding: 0px;
+        gap: 0px;
+        height: 50px; 
+        margin-left: 300px;
+
+    }
+
+
     header{
         position: fixed;
         top: 0;
@@ -1398,7 +1400,7 @@
     }
 
     body {
-        padding-top: 60px; /* Ajuste conforme a altura do cabeçalho */
+        padding-top: 70px; /* Ajuste conforme a altura do cabeçalho */
     }
 
     /* Ocultando elementos na tela de 430px */
@@ -1420,6 +1422,7 @@
         justify-content: flex-start; /* Alinha o conteúdo à esquerda */
         align-items: center;
         padding: 10px; /* Espaçamento interno */
+        padding-top: 0px;
     }
 
     /* Estilo do botão do menu hambúrguer */
@@ -1443,12 +1446,13 @@
     .menu {
         display: none;
         flex-direction: column;
-        top: 53px; /* Ajuste conforme necessário */
+        top: 60px; /* Ajuste conforme necessário */
         right: 0;
         background-color: #4A53AA; /* Ajuste conforme necessário */
         width: 100%;
         text-align: center;
         line-height: 10px;
+    
     }
 
     /* O menu fica visível quando a classe 'active' é adicionada */
@@ -1471,7 +1475,7 @@
     /* Quando o menu está ativo, muda a cor do fundo e das barras do botão */
     .menu-toggle.active {
         background-color: #055C9D; /* Cor de fundo azul */
-        padding: 4px;
+        padding: 3px;
     }
 
     .menu-toggle.active .bar {
@@ -1636,8 +1640,6 @@
         
     }
 
-    .section_tres_container_textos_botao_ancora{
-    }
 
     .section_tres_container_textos_botao_texto{
         font-size: 16px;
@@ -1784,11 +1786,6 @@
     
     .section_sete_titulo{
         display: none;
-    }
-
-    .section_sete{
-     
-        
     }
 
     .section_sete_infos {

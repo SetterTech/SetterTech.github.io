@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./servicos.css">
+    <script src="./index.js" defer></script>
+    <title>SETTER</title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="container_nav">
+            <div class="container_nav_esquerda">
+                <div class="container_nav_esquerda_container_img">
+                    <a class="containver_nav_ancora" href="./index.html"> <img
+                            class="container_nav_esquerda_container_img_img" src="./assets/logo.png" alt=""> </a>
+
+                </div>
+                <div class="container_nav_esquerda_texto">
+                    <a class="containver_nav_ancora" href="./quem_somos.html">
+                        <p class="container_nav_esquerda_texto_texto">QUEM SOMOS</p>
+                    </a>
+                    <a class="containver_nav_ancora" href="./servicos.html">
+                        <p class="container_nav_esquerda_texto_texto">SERVIÇOS</p>
+                    </a>
+                    <a class="containver_nav_ancora" href="#">
+                        <p class="container_nav_esquerda_texto_texto">PRODUTOS</p>
+                    </a>
+                </div>
+            </div>
+
+            <a class="containver_nav_ancora" href="#">
+                <div class="container_nav_direita">
+                    <p class="container_nav_direita_texto">FALE CONOSCO!</p>
+                </div>
+            </a>
+
+            <!-- Menu Hambúrguer -->
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <div class="container_img_header">
+                <img class="logo_header_mobile" src="./assets/logo.png" alt="">
+            </div>
+
+            <div class="menu">
+                <a class="containver_nav_ancora" href="./index.html">HOME</a>
+                <a class="containver_nav_ancora" href="./quem_somos.html">QUEM SOMOS</a>
+                <a class="containver_nav_ancora" href="./servicos.html">SERVIÇOS</a>
+                <a class="containver_nav_ancora" href="#">PRODUTOS</a>
+                <a class="containver_nav_ancora" href="#">FALE CONOSCO!</a>
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            // Alterna a classe 'active' no botão e no menu
+            this.classList.toggle('active');
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
+
+    <section class="section_um_servicos">
+        <p class="section_um_servicos_frase">Descubra como podemos contribuir para o crescimento da sua empresa</p>
+    </section>
+
+    <section class="section_dois_servicos">
+
+        <div class="section_dois_servicos_cotainer_boxes">
+            <div class="section_dois_servicos_cotainer_boxes_texto">
+                <h2 class="section_dois_servicos_cotainer_boxes_texto_titulo">
+                    Contato inteligente
+                </h2>
+
+                <p class="section_dois_servicos_cotainer_boxes_texto_texto">
+                    O uso de Contato Inteligente aprimora a interação com clientes, automatizando respostas,
+                    solucionando dúvidas e proporcionando suporte eficiente e personalizado.
+                </p>
+            </div>
+        </div>
+
+        <div class="section_dois_servicos_cotainer_boxes">
+            <div class="section_dois_servicos_cotainer_boxes_texto">
+                <h2 class="section_dois_servicos_cotainer_boxes_texto_titulo">
+                    Business Intelligence
+                </h2>
+
+                <p class="section_dois_servicos_cotainer_boxes_texto_texto">
+                    O BI (business intelligence) revela insights para decisões estratégicas, analisando dados históricos
+                    e atuais, e exibindo descobertas em formatos visuais intuitivos.
+                </p>
+            </div>
+        </div>
+
+        <div class="section_dois_servicos_cotainer_boxes">
+            <div class="section_dois_servicos_cotainer_boxes_texto">
+                <h2 class="section_dois_servicos_cotainer_boxes_texto_titulo">
+                    Integração via API
+                </h2>
+
+                <p class="section_dois_servicos_cotainer_boxes_texto_texto">
+                    A integração de sistemas via API conecta suas aplicações, automatiza processos e melhora a
+                    eficiência operacional. Veja como APIs robustas podem transformar sua empresa.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section_tres_servicos">
+
+        <div class="section_tres_servicos_cotainer_boxes">
+            <div class="section_tres_servicos_cotainer_boxes_texto">
+                <h2 class="section_tres_servicos_cotainer_boxes_texto_titulo">
+                    Onesource
+                </h2>
+
+                <p class="section_tres_servicos_cotainer_boxes_texto_texto">
+                    Solução fiscal em SaaS otimiza análises e atende às legislações Federal, Estadual e Municipal.
+                    Automação completa com RPA fiscal de ponta a ponta de forma padrão.
+                </p>
+            </div>
+        </div>
+
+        <div class="section_tres_servicos_cotainer_boxes">
+            <div class="section_tres_servicos_cotainer_boxes_texto">
+                <h2 class="section_tres_servicos_cotainer_boxes_texto_titulo">
+                    Microsoft 365
+                </h2>
+
+                <p class="section_tres_servicos_cotainer_boxes_texto_texto">
+                    Microsoft 365 é uma nuvem de produtividade para alcançar objetivos e gerenciar negócios. Inclui
+                    Word, Excel, PowerPoint, serviços de nuvem, segurança avançada, e 1 TB de armazenamento. Use email,
+                    calendários, chat, reuniões e chamadas no Teams.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section_quatro_servicos">
+
+        <div class="section_quatro_servicos_cotainer_boxes">
+            <div class="section_quatro_servicos_cotainer_boxes_texto">
+                <h2 class="section_quatro_servicos_cotainer_boxes_texto_titulo">
+                    Contato inteligente
+                </h2>
+
+                <div class="section_quatro_servicos_cotainer_boxes_texto_texto">
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo">1 - Respostas imediatas</h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto">Agilidade no atendimento, reduzindo o tempo de espera do cliente.</p>
+
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo">2 - Atendimento 24/7</h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto"> Disponibilidade contínua, garantindo suporte a qualquer hora do dia.</p>
+
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo"> 3 - Escalabilidade </h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto"> Evolui conforme a demanda, ajustando-se às necessidades da empresa.</p>
+
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo">4 - Centralização</h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto">Unifica canais de atendimento, oferecendo uma experiência de suporte integrada.</p>
+
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo">5 - Métricas</h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto section_quatro_ajuste">Registra interações, fornecendo insights valiosos para tomadas de decisão.
+                                               
+                    </p>
+                  </div>
+            </div>
+        </div>
+
+        <div class="section_quatro_servicos_cotainer_boxes">
+            <div class="section_quatro_servicos_cotainer_boxes_texto">
+                <h2 class="section_quatro_servicos_cotainer_boxes_texto_titulo">
+                    Business Intelligence (BI)
+                </h2>
+                
+
+                <div class="section_quatro_servicos_cotainer_boxes_texto_texto">
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo">1 - Eficiência dos processos operacionais</h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto">Aumente a eficiência dos processos operacionais agora mesmo.</p>
+
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo">2 - Insights sobre comportamento do cliente</h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto">Entenda melhor clientes e suas compras com insights precisos e úteis.</p>
+
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo"> 3 - Acompanhamento preciso de vendas e finanças </h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto"> Monitore vendas, marketing e finanças com precisão total e em tempo real.</p>
+
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo">4 - Alertas instantâneos para anomalias</h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto">Receba alertas instantâneos sobre problemas e dados fora do padrão.</p>
+
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo">5 - Análises compartilháveis em tempo real</h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto">Compartilhe análises em tempo real entre equipes para decisões ágeis. </p>
+
+                </div>
+            </div>
+        </div>
+
+       
+
+       
+
+
+        <div class="section_quatro_servicos_cotainer_boxes">
+            <div class="section_quatro_servicos_cotainer_boxes_texto">
+                <h2 class="section_quatro_servicos_cotainer_boxes_texto_titulo">
+                    Integração via API
+                </h2>
+
+                <div class="section_quatro_servicos_cotainer_boxes_texto_texto">
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo">1 - Redução de custos</h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto">Ao automatizar tarefas repetitivas, você economiza tempo e recursos valiosos.</p>
+
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo">2 - Aumento da produtividade</h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto">Sua equipe pode focar em atividades estratégicas e criativas, impulsionando a inovação.</p>
+
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo"> 3 - Melhoria na Eficiência Operacional </h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto"> Processos integrados funcionam de maneira mais fluida e eficaz, eliminando gargalos.</p>
+
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo">4- Experiência de Usuário Superior</h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto">Ofereça um atendimento mais ágil e personalizado, melhorando a satisfação do cliente.</p>
+
+                    <h3 class="section_quatro_servicos_cotainer_boxes_texto_texto_titulo">5- Tomada de Decisão Informada</h3>
+
+                    <p class="section_quatro_servicos_cotainer_boxes_texto_texto_texto">Com dados precisos e integrados, é possível tomar decisões mais embasadas e assertivas.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section_cinco_servicos">
+
+        <div class="section_cinco_servicos_cotainer_boxes section_cinco_servicos_cotainer_boxes_um">
+            <div class="section_cinco_servicos_cotainer_boxes_texto">
+                <h2 class="section_cinco_servicos_cotainer_boxes_texto_titulo">
+                    Onesource
+                </h2>
+
+                <div class="section_cinco_servicos_cotainer_boxes_texto_texto">
+                     <h3 class="section_cinco_servicos_cotainer_boxes_texto_texto_titulo">1- Gestão integral</h3>
+
+                    <p class="section_cinco_servicos_cotainer_boxes_texto_texto_texto">Sistema tributário SaaS com dados unificados, atualização automática e integração total.</p>
+
+                     <h3 class="section_cinco_servicos_cotainer_boxes_texto_texto_titulo">2- Alta performance</h3>
+
+                    <p class="section_cinco_servicos_cotainer_boxes_texto_texto_texto">Analytics Tributário único para transformar dados em insights preditivos e prescritivos.</p>
+
+                     <h3 class="section_cinco_servicos_cotainer_boxes_texto_texto_titulo"> 3- Suporte </h3>
+
+                    <p class="section_cinco_servicos_cotainer_boxes_texto_texto_texto">Atualização constante e integração total com ERPs homologados e monitoramento legal.</p>
+
+                     <h3 class="section_cinco_servicos_cotainer_boxes_texto_texto_titulo">4- Monitoramento e Riscos</h3>
+
+                    <p class="section_cinco_servicos_cotainer_boxes_texto_texto_texto">Atualizações legislativas diárias e mitigação de riscos fiscais com consultoria especializada.</p>
+
+                     <h3 class="section_cinco_servicos_cotainer_boxes_texto_texto_titulo">5- Saving, Autonomia, Flexibilidade</h3>
+
+                    <p class="section_cinco_servicos_cotainer_boxes_texto_texto_texto">Controle de custos, simulação de cenários e planejamento tributário sem custos extras.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section_cinco_servicos_cotainer_boxes section_cinco_servicos_cotainer_boxes_dois">
+            <div class="section_cinco_servicos_cotainer_boxes_texto">
+                <h2 class="section_cinco_servicos_cotainer_boxes_texto_titulo ">
+                    Microsoft 365
+                </h2>
+
+                <div class="section_cinco_servicos_cotainer_boxes_texto_texto">
+                     <h3 class="section_cinco_servicos_cotainer_boxes_texto_texto_titulo">1- Gestão de identidades e acessos</h3>
+
+                    <p class="section_cinco_servicos_cotainer_boxes_texto_texto_texto">Controle total sobre identidades e acessos com segurança e eficiência.</p>
+
+                     <h3 class="section_cinco_servicos_cotainer_boxes_texto_texto_titulo">2- Reuniões e trabalho em equipe</h3>
+
+                    <p class="section_cinco_servicos_cotainer_boxes_texto_texto_texto">Melhore reuniões e colaboração com ferramentas integradas e fáceis.</p>
+
+                     <h3 class="section_cinco_servicos_cotainer_boxes_texto_texto_titulo"> 3- E-mail empresarial </h3>
+
+                    <p class="section_cinco_servicos_cotainer_boxes_texto_texto_texto"> E-mail empresarial profissional, rápido e seguro para comunicação eficaz.</p>
+
+                     <h3 class="section_cinco_servicos_cotainer_boxes_texto_texto_titulo">4- Compartilhamento seguro de arquivos</h3>
+
+                    <p class="section_cinco_servicos_cotainer_boxes_texto_texto_texto">Compartilhe arquivos com segurança e proteção contra acessos não autorizados.</p>
+
+                     <h3 class="section_cinco_servicos_cotainer_boxes_texto_texto_titulo">5- Segurança avançada e conformidade</h3>
+
+                    <p class="section_cinco_servicos_cotainer_boxes_texto_texto_texto">Proteção avançada e conformidade garantida para dados e processos.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_seis_servicos">
+        <div class="section_seis_servicos_container">
+            <div class="section_seis_servicos_img">
+                <img class="section_seis_servicos_img_img" src="./assets/mulher_especialista.png" alt="Mulher Especialista">
+            </div>
+    
+            <div class="section_seis_servicos_texo">
+                <div class="section_seis_servicos_texo_top">
+                    Na Setter, nosso compromisso não termina com a venda. Oferecemos serviços contínuos de consultoria e suporte técnico, atuando como sua equipe de TI para garantir que suas operações funcionem perfeitamente. Nossa equipe de especialistas está pronta para fornecer soluções rápidas e eficazes, permitindo que você foque no crescimento do seu negócio.
+                </div>
+    
+                <div class="section_seis_servicos_texo_bot">
+                    Escolher a Setter significa contar com um parceiro de confiança que entende suas necessidades e trabalha constantemente para superá-las.Entre em contato conosco  e descubra como podemos ser o suporte que sua empresa precisa!
+                </div>
+    
+                <div class="section_seis_servicos_botao">
+    
+                    <a class="ancora" href="#">
+                        <p class="section_seis_servicos_botao_texto">
+                            Fale com um especialista
+                        </p>
+                    </a>
+    
+                </div>
+    
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section_sete_servicos">
+        <h3 class="section_sete_servicos_titulo">Potencialize sua Operação com Integração de Plataformas</h3>
+
+        <div class="section_sete_servicos_container_elementos">
+
+            <p class="section_sete_servicos_container_elementos_texto">Integrar plataformas como HubSpot, Hotmart, SAP,CV e RD Station não só simplifica operações e reduz custos, mas também melhora a eficiência e capacidade de tomar decisões rápidas.</p>
+
+            <img class="imagem_hub_servicos" src="./assets/Integracoes.png" alt="Integrações">
+
+            <p class="section_sete_servicos_container_elementos_texto">Esta estratégia não apenas economiza recursos, mas também prepara sua empresa para um crescimento sustentável e competitivo no mercado atual.</p>
+
+        </div>
+
+        <div class="section_sete_servicos_botao">
+
+            <a class="ancora" href="#"> 
+                <p class="section_sete_servicos_botao_texto">Fale Conosco</p>
+            </a>
+           
+        </div>
+
+    </section>
+
+    <footer class="footer">
+            
+            <div class="footer_sessao_um">
+
+                <div class="footer_sessao_um_bloco_um footer_sessao_um_bloco_um_ghost">
+                    <p class="footer_sessao_um_bloco_um_titulo"> Institucional</p>
+                    <p class="footer_sessao_um_bloco_um_texto">Quem somos | Serviços </p>
+                    <p class="footer_sessao_um_bloco_um_texto">Produtos | Fale Conosco </p>
+                </div>
+
+                <div class="footer_sessao_um_bloco_um">
+                    <p class="footer_sessao_um_bloco_um_titulo"> Contatos </p>
+                    <p class="footer_sessao_um_bloco_um_texto">(31)98112-0002</p>
+                </div>
+
+                <div class="footer_sessao_um_bloco_um">
+                    <p class="footer_sessao_um_bloco_um_titulo footer_sessao_um_bloco_um_ghost" > Redes </p>
+                    <div class="footer_sessao_um_bloco_tres_bloco_img">
+                        <img class="footer_sessao_um_bloco_tres_bloco_img_img" src="./assets/redes.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer_sessao_dois">
+                <p class="footer_sessao_dois_texto footer_sessao_um_bloco_um_ghost"> CNPJ: 55.553.627/0001-61</p>
+                <p class="footer_sessao_dois_texto"> ENDEREÇO: Av. Marechal Câmara,160 - Centro RJ CEP:20.020-907</p>
+                <p class="footer_sessao_dois_texto_baixo"> *Todas as imagens foram criadas por inteligência artificial. </p>
+            </div>
+
+        </footer>
+
+</body>
+
+</html>

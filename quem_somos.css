@@ -220,6 +220,14 @@
     .nossos_valores{
         margin-left: 7%;
     }
+/* 
+    .section_tres_quem_somos_container_botao_img_img{
+
+    } */
+
+    .section_tres_quem_somos_container_botao_titulo_texto{
+        margin: 5% 10% 5% 10%;
+    }
  
 }
 
@@ -255,7 +263,6 @@
 @media only screen and (max-width: 1200px) {
     .section_quatro_quem_somos {
        justify-content:space-between
-        gap: 0; /* Remove qualquer espaço entre os itens */
     }
 
     .section_quatro_quem_somos_img,
@@ -277,13 +284,140 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .section_um_quem_somos_container_texto_bloco_um_texto{
+        font-size: 28px;
+    }
+
+    .section_dois_quem_somos_container_titulo{
+        font-size: 28px;
+    }
+
+    .section_dois_quem_somos_container_um_textos{
+        font-size: 20px;
+    }
+    .nossos_valores{
+        font-size: 28px;
+    }
     .section_quatro_quem_somos_container_texto{
         margin:0px;
         width: 100%;
         padding: 0px;
     }
+    .section_tres_quem_somos_container_botao_img_img{
+        padding: 4rem;
+        width: 30%;
+    }
+
+    .section_tres_quem_somos_container_botao_titulo{
+        font-size: 20px;
+    }
+    .section_tres_quem_somos_container_botao_titulo_texto{
+        font-size: 18px;
+    }
+
+   
+
 }
 
+
+@media only screen and (max-width: 430px) {
+    .section_um_quem_somos{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0px;
+        border-radius: 0;
+        height: 524;
+    }
+
+    .section_um_quem_somos_container_img_img{
+        width: 200px;
+        margin-bottom: 15%;
+    }
+
+    .section_um_quem_somos_container_texto_bloco_um_texto, .section_um_quem_somos_container_texto_bloco_dois_texto{
+        font-size: 16px;
+        line-height: 18.75px;
+    }
+
+    .section_dois_quem_somos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin:0px;
+        padding: 0px;
+        margin-top: 20px;
+
+    }
+    .section_dois_quem_somos_container_titulo{
+        margin: 0;
+        font-size: 24px;
+    }
+    .section_dois_quem_somos_container_um{
+        margin:0;
+        padding: 0;
+    }
+
+    .section_dois_quem_somos_container_um_textos{
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    
+    }
+
+    .nossos_valores{
+        margin: 0;
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .section_tres_quem_somos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section_tres_quem_somos_container_botao_img_img{
+        width: 30%;
+        padding: 3rem;
+    }
+
+    .section_quatro_quem_somos{
+        background: #083E77;
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+        width: 100%;
+        
+    }
+
+    .section_quatro_quem_somos_img_img{
+        width: 200px;
+        margin: 0;
+        margin-bottom: 50px;
+        margin-top: 50px;
+   
+    }
+
+    .section_quatro_quem_somos_container_texto{
+        font-size: 16px;
+        line-height: 18.75px;
+        text-align: center;
+        margin-top: 50px;   
+    }
+
+    .section_quatro_quem_somos_container_texto_um{
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    .section_quatro_quem_somos_container_texto_dois{
+        text-align: center;
+        margin: 0% 10% 0% 10%
+    }
+}
 
 
 

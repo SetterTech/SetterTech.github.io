@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const slides = document.querySelectorAll(".slide");
         const indicators = document.querySelectorAll(".indicator");
         let currentSlide = 0;
-        const slideInterval = 5000000; /* 5000 = 5 segundos */
+        const slideInterval = 5000; /* 5000 = 5 segundos */
         let interval;
 
         function showSlide(index) {
