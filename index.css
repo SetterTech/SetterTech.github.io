@@ -9,6 +9,11 @@
     text-decoration: none;
 }
 
+.ancora_footer{
+    text-decoration: none;
+    color: #fff;
+}
+
 .carousel-container {
     position: relative;
     width: 100%;
@@ -74,7 +79,7 @@
     background-color: #000;
     height: 3px;
     width: 25px;
-    margin: 3px 0;
+    margin: 3px;
 }
 
 /* Estilo do menu */
@@ -95,9 +100,7 @@
     display: flex;
 }
 
-.container_img_header{
-    display: none;
-}
+
 .section_um_container_texto_container_saiba_mais {
     position: relative;
     z-index: 15; /* Ajuste conforme necessário */
@@ -866,7 +869,7 @@
 }
 
 .section_nove{
-    background: linear-gradient(180deg, #fff 0%, #fff 20%, #4fc0e8 20%, #4fc0e8 80%, #fff 80%, #fff 100%);
+    background: linear-gradient(180deg, #fff 0%, #fff 20%, #055C9D 20%, #055C9D 80%, #fff 80%, #fff 100%);
     font-family: var(--font_primaria);
     display: flex;
     margin-top: 5%;
@@ -1380,14 +1383,6 @@
         display: grid;
     }
 
-    .logo_header_mobile{
-        padding: 0px;
-        gap: 0px;
-        height: 50px; 
-        margin-left: 300px;
-
-    }
-
 
     header{
         position: fixed;
@@ -1395,12 +1390,14 @@
         left: 0;
         width: 100%;
         z-index: 1000;
-        background-color: #fff;
-        margin-bottom: 60px;
+        background-image: url('./assets/background_nav_mobile.png');
+        background-repeat: no-repeat;
+        background-position:center ;
+        height: 50px;
     }
 
     body {
-        padding-top: 70px; /* Ajuste conforme a altura do cabeçalho */
+        padding-top: 50px; /* Ajuste conforme a altura do cabeçalho */
     }
 
     /* Ocultando elementos na tela de 430px */
@@ -1446,7 +1443,7 @@
     .menu {
         display: none;
         flex-direction: column;
-        top: 60px; /* Ajuste conforme necessário */
+        top: 50px; /* Ajuste conforme necessário */
         right: 0;
         background-color: #4A53AA; /* Ajuste conforme necessário */
         width: 100%;
@@ -1923,6 +1920,8 @@
     .footer_sessao_dois_texto_baixo{
         margin-top:30px;
     }
+
+
 
 
 }

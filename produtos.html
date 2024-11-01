@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./produtos.css">
+    <script src="./index.js" defer></script>
+    <title>SETTER</title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="container_nav">
+            <div class="container_nav_esquerda">
+                <div class="container_nav_esquerda_container_img">
+                    <a class="containver_nav_ancora" href="./index.html"> <img
+                            class="container_nav_esquerda_container_img_img" src="./assets/logo.png" alt=""> </a>
+
+                </div>
+                <div class="container_nav_esquerda_texto">
+                    <a class="containver_nav_ancora" href="./quem_somos.html">
+                        <p class="container_nav_esquerda_texto_texto">QUEM SOMOS</p>
+                    </a>
+                    <a class="containver_nav_ancora" href="./servicos.html">
+                        <p class="container_nav_esquerda_texto_texto">SERVIÇOS</p>
+                    </a>
+                    <a class="containver_nav_ancora" href="./produtos.html">
+                        <p class="container_nav_esquerda_texto_texto">PRODUTOS</p>
+                    </a>
+                </div>
+            </div>
+
+            <a class="containver_nav_ancora" href="https://wa.me/5521983728571?text=Olá!%20Gostaria%20de%20saber%20mais%20informações.">
+                <div class="container_nav_direita">
+                    <p class="container_nav_direita_texto">FALE CONOSCO!</p>
+                </div>
+            </a>
+
+            <!-- Menu Hambúrguer -->
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+              <div class="menu">
+                <a class="containver_nav_ancora" href="./index.html">HOME</a>
+                <a class="containver_nav_ancora" href="./quem_somos.html">QUEM SOMOS</a>
+                <a class="containver_nav_ancora" href="./servicos.html">SERVIÇOS</a>
+                <a class="containver_nav_ancora" href="./produtos.html">PRODUTOS</a>
+                <a class="containver_nav_ancora" href="https://wa.me/5521983728571?text=Olá!%20Gostaria%20de%20saber%20mais%20informações." target="_blank">FALE CONOSCO!</a>
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            // Alterna a classe 'active' no botão e no menu
+            this.classList.toggle('active');
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
+
+    <section class="section_um_produtos">
+        <div class="section_um_produtos_descricao">
+            <article class="section_um_produtos_article">
+                <h2 class="section_um_produtos_titulo">
+                    Setter.Notify
+                </h2 class="section_um_produtos_titulo">
+    
+                <div class="section_um_produtos_um_container_texto">
+                   <p class="section_um_produtos_container_texto_texto">Conheça o Setter.<strong class="strong_italico">Notify</strong>, a solução perfeita para disparo de </p> 
+                   <p class="section_um_produtos_container_texto_texto">mensagens via WhatsApp, capaz de transformar a</p> 
+                   <p class="section_um_produtos_container_texto_texto">comunicação do seu negócio.</p> 
+                </div>
+    
+                <div class="section_um_produtos_um_container_texto_dois">
+                    
+                    <p class="section_um_produtos_container_texto_texto"> Com ele, você pode automatizar notificações, aumentar o</p> 
+                    <p class="section_um_produtos_container_texto_texto">engajamento com seus clientes e personalizar mensagens</p> 
+                    <p class="section_um_produtos_container_texto_texto"> de acordo com suas necessidades, tudo de forma rápida e eficiente.</p> 
+                </div>
+            </article>
+            
+        </div>
+
+        <div class="section_um_produtos_dois_img">
+            <img class="section_um_produtos_dois_img_img" src="./assets/img_celular_produtos.png" alt="Conectividade">
+        </div>
+
+    </section>
+
+    <section class="section_dois_produtos">
+        <div class="section_dois_produtos_textos">
+            <p>O <strong class="strong_azul"> Setter.<strong class="strong_italico">Notify</strong> </strong> se conecta facilmente</p>
+            <p>a plataformas como <strong>RDStation</strong>,</p>
+            <p> <strong class="strong_azul"> Sienge </strong>, <strong class="strong_azul">  Construtor de Vendas </strong>,</p>
+            <p> <strong class="strong_azul"> Hubspot </strong> e <strong class="strong_azul"> Sistemas Personalizados </strong> </p>
+        </div>
+         
+         
+         
+        
+    </section>
+
+    <section class="section_tres_produtos">
+        <div class="section_tres_produtos_img">
+            <img class="section_tres_produtos_img_img" src="./assets/mulher_preta_produtos.png" alt="Conexão e Satisfação">
+        </div>
+        
+        <article class="section_tres_produtos_container_texto">
+              
+            <div class="section_tres_produtos_container_texto_texto">
+                <p>Simplifique seu fluxo de comunicação e</p>
+                <p>potencialize seus resultados com o</p>
+                <p>Setter. <strong class="strong_italico">Notify!</strong> </p>
+            </div>
+
+            <a class="ancora_sem_decoracao" href="https://wa.me/5521983728571?text=Olá!%20Gostaria%20de%20saber%20mais%20informações.">
+                <div class="section_tres_produtos_container_texto_botao">
+                    <p class="section_tres_produtos_container_texto_botao_botao">
+                    Fale com o especialista! 
+                    </p>
+                </div>
+            </a>
+        </article>
+
+    </section>
+
+
+    <footer class="footer">
+
+        <div class="footer_sessao_um">
+
+            <div class="footer_sessao_um_bloco_um footer_sessao_um_bloco_um_ghost">
+                <p class="footer_sessao_um_bloco_um_titulo"> Institucional</p>
+                <p class="footer_sessao_um_bloco_um_texto"> <a class="ancora_footer" href="./quem_somos.html"> Quem somos </a> | <a class="ancora_footer" href="./servicos.html"> Serviços </a>  </p>
+                <p class="footer_sessao_um_bloco_um_texto"> <a class="ancora_footer" href=""> Produtos</a>  | <a class="ancora_footer" href=""> Fale Conosco </a> </p>
+            </div>
+
+            <div class="footer_sessao_um_bloco_um">
+                <p class="footer_sessao_um_bloco_um_titulo"> Contatos </p>
+                <p class="footer_sessao_um_bloco_um_texto">(31)98112-0002</p>
+            </div>
+
+            <div class="footer_sessao_um_bloco_um">
+                <p class="footer_sessao_um_bloco_um_titulo footer_sessao_um_bloco_um_ghost"> Redes </p>
+                <div class="footer_sessao_um_bloco_tres_bloco_img">
+                    <img class="footer_sessao_um_bloco_tres_bloco_img_img" src="./assets/redes.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer_sessao_dois">
+            <p class="footer_sessao_dois_texto footer_sessao_um_bloco_um_ghost"> CNPJ: 55.553.627/0001-61</p>
+            <p class="footer_sessao_dois_texto"> ENDEREÇO: Av. Marechal Câmara,160 - Centro RJ CEP:20.020-907</p>
+            <p class="footer_sessao_dois_texto_baixo"> *Todas as imagens foram criadas por inteligência artificial. </p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
