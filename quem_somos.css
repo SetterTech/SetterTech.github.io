@@ -320,7 +320,7 @@
 }
 
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 600px) {
     .section_um_quem_somos{
         display: flex;
         flex-direction: column-reverse;
