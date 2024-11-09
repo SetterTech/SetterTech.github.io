@@ -1037,6 +1037,15 @@
 
 }
 
+#mensagem_envio{
+    font-family: var(--font_primaria);
+    text-align: center;
+    font-size: 2em;
+    width: 25vw;
+    height: 50vh;
+    margin-top: 30vh ;
+}
+
 @media only screen and (max-width: 1680px) {
     
     
@@ -1111,7 +1120,9 @@
 
     }
 
-
+    .section_sete_titulo{
+        margin-top: 20vw;
+    }
     .section_nove_bloco_input{
         margin-left: 8%;
         margin-top: 2%;
@@ -1223,7 +1234,12 @@
         margin-left: 3.5%;
     }
 
+    #mensagem_envio{
+ 
+        width: 35vw;
 
+    }
+    
 
  }
 
@@ -1374,7 +1390,12 @@
     .section_seis {
         background: linear-gradient(180deg, #fff 0%, #fff 15%, #4fc0e8 15%, #4fc0e8 70%, #fff 70%, #fff 100%);
         height: 1036px;
-    
+        
+        margin-bottom: 0px;
+    }
+
+    .section_sete_titulo{
+        margin-top: 0px;
     }
     
 }
@@ -1971,7 +1992,12 @@
         margin-top:30px;
     }
 
-  
+    #mensagem_envio{
+        font-size: 1.5rem;
+        width: 90vw;
+        height: 10vh;
+    }
+    
 
 
 }

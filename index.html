@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./index.css">
     <script src="./index.js" defer></script>
+    <script src="./carrosel.js" defer></script>
     <script src="enviar.js" defer></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 
     <title>SETTER</title>
 
@@ -438,44 +441,52 @@
         </div>
 
         <div class="section_nove_bloco_input">
-            <div class="section_nove_bloco_input_texto section_nove_bloco_input_texto_top">
-                <label class="section_nove_bloco_input_texto" for="nome">Nome*</label>
-                <input class="section_nove_bloco_input_texto_input" type="text" id="nome" name="nome"
-                    placeholder="Nome completo">
-            </div>
 
-            <div class="section_nove_bloco_input_texto">
-                <label class="section_nove_bloco_input_texto" for="nome_empresa">Nome da empresa</label>
-                <input class="section_nove_bloco_input_texto_input" type="text" id="nome_empresa" name="nome_empresa"
-                    placeholder="Nome da empresa">
-            </div>
+          
 
-            <div class="section_nove_bloco_input_texto">
-                <label class="section_nove_bloco_input_texto" for="email">Email*</label>
-                <input class="section_nove_bloco_input_texto_input" type="text" id="email" name="email"
-                    placeholder="exemplo@exemplo.com">
-            </div>
+            <form action="https://formsubmit.co/contato@settertech.net" method="POST" id="formulario">
 
-            <div class="section_nove_bloco_input_texto">
-                <label class="section_nove_bloco_input_texto" for="contato">Contato*</label>
-                <input class="section_nove_bloco_input_texto_input" type="text" id="contato" name="contato"
-                    placeholder="(11) 99999-9999">
+                <div class="section_nove_bloco_input_texto">
+                    <label class="section_nove_bloco_input_texto" for="nome">Nome*</label>
+                    <input class="section_nove_bloco_input_texto_input" type="text" id="nome" name="Nome" placeholder="Nome" required>
+                </div>
+            
+                <div class="section_nove_bloco_input_texto">
+                    <label class="section_nove_bloco_input_texto" for="nome_empresa">Nome da empresa*</label>
+                    <input class="section_nove_bloco_input_texto_input" type="text" id="nome_empresa" name="Nome_da_Empresa" placeholder="Nome da empresa" required>
+                </div>
+            
+                <div class="section_nove_bloco_input_texto">
+                    <label class="section_nove_bloco_input_texto" for="email">Email*</label>
+                    <input class="section_nove_bloco_input_texto_input" type="email" id="email" name="Email" placeholder="Seu email" required>
+                </div>
+            
+                <div class="section_nove_bloco_input_texto">
+                    <label class="section_nove_bloco_input_texto" for="contato">Contato*</label>
+                    <input class="section_nove_bloco_input_texto_input" type="text" id="contato" name="Contato" placeholder="Seu contato" required>
+                </div>
+            
+                <div class="section_nove_bloco_input_texto">
+                    <label class="section_nove_bloco_input_texto" for="ajudar">Como podemos te ajudar?*</label>
+                    <textarea class="section_nove_bloco_input_texto_input input_final" name="Mensagem" id="ajudar" placeholder="Sua mensagem" required></textarea>
+                </div>
+            
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://www.settertech.net/quem_somos.html">
+            
+                <button type="submit" id="enviar" class="section_nove_botao_enviar">
+                    <p class="section_nove_botao_enviar_texto">Enviar</p>
+                </button>
+            </form>
+            
+            <div id="mensagem_envio" style="display: none;">
+                <p>Mensagem enviada com sucesso!</p>
+                <p>Em breve retornaremos o contato!</p>
             </div>
-
-            <div class="section_nove_bloco_input_texto">
-                <label class="section_nove_bloco_input_texto" for="ajudar">Como podemos te ajudar?*</label>
-                <textarea class="section_nove_bloco_input_texto_input input_final" id="ajudar" name="ajudar"
-                    placeholder="Gostaria de saber mais sobre contatos inteligentes"></textarea>
-            </div>
-
-            <button id="enviar" class="section_nove_botao_enviar">
-                <p class="section_nove_botao_enviar_texto">Enviar</p>
-            </button>
         </div>
 
 
-
-        </div>
+        
 
 
     </section>
@@ -493,7 +504,7 @@
 
             <div class="footer_sessao_um_bloco_um">
                 <p class="footer_sessao_um_bloco_um_titulo"> Contatos </p>
-                <p class="footer_sessao_um_bloco_um_texto">(31)98112-0002</p>
+                <p class="footer_sessao_um_bloco_um_texto">(21)983728571</p>
             </div>
 
             <div class="footer_sessao_um_bloco_um">
