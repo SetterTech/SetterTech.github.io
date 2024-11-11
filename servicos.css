@@ -273,28 +273,34 @@ body{
 }
 
 .section_sete_servicos_container_elementos{
-    display: flex;
-    align-items: center;
-    margin:2% 0% 2% 0%;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.imagem_hub_servicos{
+    margin-left: 10%;
+
 }
 
 .section_sete_servicos_container_elementos_texto{
     font-size: 24px;
     font-weight: 400;
     line-height: 28.13px;
-    text-align: center;
-    margin-left: 6%;
-    margin-right: 6%;
-
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .section_sete_servicos_botao{
     background: #367CDD;
     border-radius: 90px;
     width: 20%;
-    margin-left: 43%;
-    margin-bottom: 3%;
-
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
 }
 
 .section_sete_servicos_botao:hover{
